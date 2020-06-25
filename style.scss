@@ -1,0 +1,82 @@
+.xcentered {
+  margin: auto;
+  display: block;
+}
+
+#carousel-wrapper {
+  border: 6px solid #aaaaa7;
+  height: 70vh;
+  width: 60%;
+  border-radius: 4px;
+}
+
+.dots {
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  border: 1px solid #aaaaa7;
+  display: inline-block;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #aaaaa9;
+  }
+}
+
+#left {
+  width: 15%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.icon .fa {
+  font-size: 4rem;
+  color: #aaaaa7;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+#right {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 15%;
+}
+
+.arrows:hover .icon .fa {
+  color: lighten(#aaaaa7, 20%);
+}
+
+.active {
+  background-color: #aaaaa9;
+}
+
+ul {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+#nav-div {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  width: 100%;
+}
